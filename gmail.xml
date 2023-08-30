@@ -1,0 +1,26 @@
+<suite name="orangehrm">
+	<test name="adminlogin">
+		<classes>
+			<class name="testcase.LoginWithValidData"></class>
+		</classes>
+	</test>
+
+	<test name="invalid">
+		<classes>
+			<class name="testcase.orangehrmlogin_with_invalide_data"></class>
+		</classes>
+	</test>
+
+	<test name="employee">
+		<classes>
+			<class name="testcase.Emloyee_testcase"></class>
+		</classes>
+	</test>
+
+	<test name="userReg">
+		<classes>
+			<class name="testcase.userRegistration_testcase"></class>
+		</classes>
+	</test>
+
+</suite>
